@@ -1,0 +1,154 @@
+#1) what is memcache and why it is used and how it is used.
+
+2) what is .htaccess file
+
+Ans: The .htaccess files are configuration files of Apache Server that provide a way to make configuration changes on a per-directory basis. A file, containing one or more configuration directives, is placed in a particular document directory; the directives apply to that directory and all subdirectories thereof.
+
+These .htaccess files are used to change the functionality and features of the Apache web server.
+
+For instance:
+
+The .htaccess file is used for URL rewrite.
+It is used to make the site password-protected.
+It can restrict some IP addresses so that on these restricted IP addresses, the site will not open
+
+3) what is composer in php and why it is used.
+
+4) CI folder structure and their comman uses.
+
+5) get some info about php.ini file which in /etc/
+
+#6) diff between primary key and unique key
+
+7) check permission of folder on server command how to.
+
+#8) sharding concepts 
+
+9) cron set on server 
+
+#10) diff between authentication and authorization
+
+11) Types of authorization
+
+#12) types/various of http codes
+
+#13) what is load balancer
+
+#14) master db vs slave db
+
+#15) Rabbit mq | kafka
+
+#16) Redis/Memcache
+
+#17) Soap APIs vs RESTful APIs
+
+#18) COOKIE VS SESSION (default expiry time for both)
+
+19) diff between $x and $$x
+
+20) in_array() vs array_search()
+
+21) php magic methods
+
+22) types of php error
+
+23) design patterns used in project is singleton and factory 
+
+24) php file handling methods such as fopen, fgetcsv etc
+
+25) diff between $_GET and $_POST and $_REQUEST. check different server method such as $_SERVER["REMOTE_ADDR"];
+
+26) implode() vs explode()
+
+27) Hooks, PEAR in  php
+
+28) what is CORS in PHP
+
+29) diff (require and include) and (require_once and include_once).
+
+30) use of 'use keyword' and namespace in php
+
+31) echo vs print
+
+32)  How can we increase the execution time of a PHP script?
+
+ANS:The default time allowed for a PHP script to execute is 30 seconds mentioned in the php.ini file. The function used is set_time_limit(int sec). If the value passed is ‘0’, it takes unlimited time. It should be noted that if the default timer is set to 30 seconds and 20 seconds is specified in set_time_limit(), the script will run for 45 seconds.
+This time can be increased by modifying max_execution_time in seconds. The time must be changed keeping the environment of the server. This is because modifying the execution time will affect all the sites hosted by the server.
+The script execution time can be increased by:
+Using the sleep() function in the PHP script
+Using the set_time_limit() function
+The default limit is 30 seconds. The time limit can be set to zero to impose no time limit
+
+33)  Explain soundex() and metaphone().
+
+34) What is the use of ini_set()? 
+
+
+DBMS Topics:
+
+#normalization,#indexing,#ACID,Dirty Read Problem,All types of keys, Joins,
+
+trigger(table level),cursor(function(return value and at db level) and procedure(not return any value) and at db level),view,Sql queries, advantage of dbms
+
+question : if db connection lost during php file execution then what to do?
+ans: use recursive approach and retry count
+
+
+OOPS TOPIC :
+
+Inheritance and its types
+encapsulation
+abstraction 
+interfaces
+abstraction vs interfaces
+polymorphism
+run time polymorphism and compile time polymorphism
+static varible and static function
+Access modifier and different modes of inheritance
+friend function
+virtual function and pure virtual function
+this keyword and scope resolution operator
+constructor(various types) and destructor
+Function overloading vs function overriding
+Exception handling (other than oops)
+
+
+
+
+/////////////////////
+
+Experience :
+
+Clues Private Network Limited
+January 2022- Present
+Unitech Cyber Park Sector 39, Gurugram 
+
+Developed, Integrate and Managed different carrier partners and merchants APIs as a one‐stop solution for all your logistics, shipment, and e‐commerce needs.
+
+Implemented various carrier integration, channel integration, bug fixing, merchant‐based settings, and modules.
+
+Moniterd system logging and server load using tools like Kibana and grafana respectively very often and accordingly change system performance.
+
+#Optimized database queries and server response time to improve API performance for
+enabling seamless communication between the front-end and back-end.
+
+Worked with senior developers to gather requirements, design solutions, and implement features for the product roadmap.
+
+Implemented scripts and crons jobs to provide daily pendency reports of orders to merchant and business team. 
+
+Smartship Project Key Points :
+
+Worked and Managed admin panel and merchant panel of Smartship to fulfill business requirements.  
+
+Conducted system testing and debugging, and provided ongoing technical support and maintenance to ensure system availability and performance.
+
+Using code versioning tools such as SVN to manage code changes and API testing frameworks such as Postman to test API functionality and ensure reliability and collaborate with the team.
+
+
+
+Sql queries imp:
+
+1) delete duplicate rows or data
+2) find second max salary 
+3) self join based query
+4)  
